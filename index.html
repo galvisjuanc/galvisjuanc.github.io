@@ -1,71 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Camilo Galvis Cuéllar - Curriculum Vitae</title>
-    <style>
-        body {
-            font-family: "Times New Roman",sans-serif;
-            margin: 24px;
-        }
-        h1, h2 {
-            margin-bottom: 10px;
-        }
-        p {
-            margin-bottom: 5px;
-        }
-        ul {
-            margin-left: 20px;
-            padding-left: 0;
-        }
-    </style>
+    <title>Curriculum Vitae - Juan Camilo Galvis Cuéllar</title>
+    <meta name="description" content="CV created with HTML and CSS">
+    <meta name="author" content="Fly Nerd">
+    <link rel="icon" href="./img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1>Juan Camilo Galvis Cuéllar</h1>
-<h2>Contact Information</h2>
-<p>Email: galvisjuanc@gmail.com</p>
-<p>Phone Number: (+57) 300 263 7896</p>
-<p>LinkedIn: https://www.linkedin.com/in/juancgalvisc/</p>
+<header>
+    <div>
+        <img src="./img/avatar.jpg" width="1920" height="1440" alt=""/>
+    </div>
+    <h1>Juan Camilo Galvis Cuéllar</h1>
+    <section>
+        <p>I’m Juan Camilo Galvis Cuéllar. Located in Bogotá, Colombia; I'm an
+            Electronic Engineer interested in Software Development and
+            working currently as Backend Java Developer.</p>
+        <a href="https://github.com/galvisjuanc" target="_blank">
+            <i class="fab fa-github-alt"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/juancgalvisc/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </section>
+</header>
+<main>
+    <section>
+        <h3>Courses & Workshops</h3>
+        <article class='course'>
+            <div class='title'>
+                <h4>Udacity: Intro to HTML and CSS</h4>
+            </div>
+            <div class="description">
+                <p>Build styled, well-structured websites. Learn how to use HTML5 standard to create websites. Understand CSS syntax, selectors, and units. Learn about code editors and a browser's Developer Tools.</p>
+            </div>
+        </article>
+        <article class='course'>
+            <div class='title'>
+                <h4>Udemy: The Web Developer Bootcamp</h4>
+            </div>
+            <div class="description">
+                <p>Learn how to create full-stack web applications from scratch using HTML, CSS, JavaScript, jQuery, VanillaJS, NodeJS, MongoDB.</p>
+            </div>
+        </article>
+        <article class='course'>
+            <div class='title'>
+                <h4>EdX: Web Programming with JavaScript</h4>
+            </div>
+            <div class="description">
+                <p>Learn how to create web apps and prototypes with JavaScript, represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p>
+            </div>
+        </article>
+        <article class='course'>
+            <div class='title'>
+                <h4>Django Girls: 2-Day Workshops</h4>
+            </div>
+            <div class="description">
+                <p>Learn back-end development with simple blog application using Django  framework.</p>
+            </div>
+        </article>
+    </section>
+    <section>
+        <h3>Skills</h3>
+        <div class='skills'>
+            <div class='column'>
+                <h4>Good knowledge</h4>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>MySQL</li>
+                    <li>Spring, Springboot, Spring Data, JPA, Hibernate, JDBC and SpringSecurity</li>
+                </ul>
+            </div>
+            <div class='column'>
+                <h4>Basic knowledge</h4>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Kotlin</li>
+                    <li>C#</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Languages</h4>
+                <p>🇪🇸 Spanish - Native speaker</p>
+                <p>🇬🇧 English - Proficient C1/C2</p>
+                <p>🇫🇷 French - Basic - A1</p>
+                <p>🇪🇸 Korean - Basic - A1</p>
+                <p>🇩🇪 German - Basic - A1</p>
+            </div>
+        </div>
+    </section>
 
-<h2>Summary</h2>
-<p>I’m Juan Camilo Galvis Cuéllar. Located in Bogotá, Colombia; I'm an
-    Electronic Engineer interested in Software Development and
-    working currently as Backend Java Developer.</p>
-<p>A concise summary of your skills, experience, and career goals.</p>
-
-<h2>Skills</h2>
-<ul>
-    <li>Programming Languages: Java and Python</li>
-    <li>Frameworks and Libraries: Spring, Springboot, Spring Data, JPA, Hibernate, JDBC and SpringSecurity</li>
-    <li>Databases: MySQL - SQLite - PostgreSQL</li>
-    <li>Cloud Platforms: AWS, Azure, BitBucket</li>
-    <li>Other Tools: Splunk, Jenkins, Nexus, Git, Postman</li>
-</ul>
-
-<h2>Experience</h2>
-<h3>Backend Java Developer at Artemisa Tech, Bogotá</h3>
-<p>January 11th/2022 - Currently working here</p>
-<ul>
-    <li>Key responsibility 1</li>
-    <li>Key responsibility 2</li>
-    <li>Key responsibility 3</li>
-</ul>
-
-<h3>Job Title 2 (Company Name, Location)</h3>
-<p>Start Date - End Date</p>
-<ul>
-    <li>Key responsibility 1</li>
-    <li>Key responsibility 2</li>
-    <li>Key responsibility 3</li>
-</ul>
-
-<h2>Education</h2>
-<h3>Electronic Engineer (Universidad INCCA de Colombia, Bogotá)</h3>
-<p>January 2009 - December 2013</p>
-<ul>
-    <li>Relevant coursework</li>
-    <li>Academic achievements</li>
-</ul>
+    <section>
+        <h3>Education</h3>
+        <article>
+            <div class='school'>
+                <span>2009-2013</span> <strong>Universidad INCCA de Colombia</strong>
+            </div>
+            <div class="description">
+                Bachelor Degree of Electronic Engineer
+            </div>
+        </article>
+    </section>
+    <section>
+        <h3>Experience</h3>
+        <article>
+            <div class='job-title'>
+                <span>01.2022 - 10.2024</span> <strong>Artemisa Tech</strong><br> <strong>Position:</strong> Backend Java Developer
+            </div>
+            <div>
+                <p><strong>Tech stack:</strong> Java / SQL / Python / Spring Framework</p>
+                <ul class="job-description">
+                    <li>Develop backend services for educative applications</li>
+                    <li>Implement UI (front-end site) based on received graphic design and requirements</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+</main>
+<footer>
+    <p>Use this as reference: <a href="https://www.flynerd.pl/">@flynerd</a>  / <a href="https://www.linkedin.com/in/ritalyczywek/">LinkedIn</a> / 2018 </p>
+</footer>
 </body>
 </html>
