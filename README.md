@@ -1,1 +1,1 @@
-Here you can see my Personal CV.
+Here I'm using Ritalyczywek idea to create a CV using HTML and CSS.
