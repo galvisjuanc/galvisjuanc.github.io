@@ -32,7 +32,7 @@ header, main, footer {
 header {
     padding: 2em;
     text-align: center;
-    background-image: url('./img/bg.jpg');
+    background-image: url('./img/background.png');
     background-size: cover;
     overflow: hidden;
     color: white;
@@ -141,7 +141,7 @@ ul.job-description li:before{
 
 footer {
     padding: 1em 1.5em;
-    background: #A7B8BF;
+    background: #649ca5;
     color: white;
     text-align: right;
 }
