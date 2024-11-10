@@ -35,7 +35,7 @@ header {
     background-image: url('./img/setupdesk.jpg');
     background-size: cover;
     overflow: hidden;
-    color: white;
+    color: #4d007b;
 }
 
 header section {
