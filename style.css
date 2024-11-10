@@ -32,7 +32,7 @@ header, main, footer {
 header {
     padding: 2em;
     text-align: center;
-    background-image: url('./img/backg.jpg');
+    background-image: url('./img/setupdesk.jpg');
     background-size: cover;
     overflow: hidden;
     color: white;
