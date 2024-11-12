@@ -34,8 +34,9 @@ header {
     text-align: center;
     background-image: url('./img/backg.jpg');
     background-size: cover;
+    background-position: bottom;
     overflow: hidden;
-    color: #0ef300;
+    color: #ffffff;
 }
 
 header section {
@@ -141,7 +142,7 @@ ul.job-description li:before{
 
 footer {
     padding: 1em 1.5em;
-    background: #003140;
+    background: #001e27;
     color: white;
     text-align: right;
 }
